@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	not_valid_before	not_valid_after	last_alert
+#types	time	string	addr	port	addr	port	string	string	string	string	string	time	time	string
+1355091928.220818	IpRCGDdRDv5	192.168.1.103	56798	74.125.225.118	443	TLSv10	TLS_ECDHE_RSA_WITH_RC4_128_SHA	mail.google.com	10c81e429609069c83b6f9e0e69fd2fb63adc9b79488ff19cbac1337bca636d1	-	-	-	-
+1355091932.573436	8PnV3q93Yg	192.168.1.103	51754	74.125.225.78	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	clients1.google.com	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	1353514144.000000	1370652207.000000	-
+1355091940.941785	B1boqPK8u09	192.168.1.103	45412	173.37.144.208	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	sso.cisco.com	-	CN=sso.cisco.com,OU=SS,O=Cisco Systems,L=San Jose,ST=California,C=US	1350018000.000000	1413176399.000000	-
+1355091959.826367	3RglXm8KOik	192.168.1.103	59433	74.125.225.38	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	apis.google.com	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	1353514144.000000	1370652207.000000	-
+1355091961.113078	aKA6yUERDFl	192.168.1.103	41510	74.125.225.122	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	googleads.g.doubleclick.net	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	1353514140.000000	1370652207.000000	-
+1355091961.899653	ubIrXX2yLwf	192.168.1.103	41518	74.125.225.122	443	TLSv11	TLS_ECDHE_RSA_WITH_RC4_128_SHA	googleads.g.doubleclick.net	-	CN=*.g.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	1353514140.000000	1370652207.000000	-

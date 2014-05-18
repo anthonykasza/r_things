@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1355091929.060004	-	-	-	-	-	non_IPv4_packet	-	F	bro
+1355091942.265649	PdllEPvNg1f	192.168.1.103	58714	174.129.249.33	80	unmatched_HTTP_reply	-	F	bro
+1355091960.556496	LQzCRriCHI2	192.168.1.103	41381	74.125.225.41	80	inflate_failed	-	F	bro
+1355091960.971316	jlvIq8lZqh5	192.168.1.103	41385	74.125.225.41	80	inflate_failed	-	F	bro
+1355091978.115971	d46wqRNkqT6	192.168.1.103	34909	72.21.203.148	80	window_recision	-	F	bro
